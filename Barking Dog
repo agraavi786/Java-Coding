@@ -1,0 +1,31 @@
+// Barking Dogs
+
+package javaTutorials;
+
+public class DogBarking {
+	
+public static void main(String[] args) {
+		
+		System.out.println(Barking(true,8));
+		
+
+	}
+	
+
+	public static boolean Barking(boolean barking , int hours) {
+		if(hours>=1 && hours<=23) {
+			if((barking = true) && hours<8 || hours >22) {
+				return true;
+			}
+			else {
+			   return false;
+				
+			}
+		}
+		else {
+			return false;
+		}
+	 
+	}
+}
+		
